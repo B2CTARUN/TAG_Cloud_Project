@@ -1,0 +1,14 @@
+{
+  "name": "execution-service",
+  "version": "1.0.0",
+  "description": "Backend code execution API for an online compiler",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
